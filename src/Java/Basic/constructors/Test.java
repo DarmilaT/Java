@@ -23,5 +23,9 @@ public class Test {
         // No in-build
         classB objCopy = new classB(objB);
         System.out.println(objCopy);
+
+        // Constructor Chaining
+        Temp temp = new Temp();
+        System.out.println(temp);
     }
 }
